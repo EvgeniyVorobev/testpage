@@ -13,7 +13,7 @@
 <script type="text/javascript">
             function listener(event){
                 document.getElementById("test").innerHTML = event.origin + " прислал: " + event.data;
-                parent.postMessage('Получили информацию и вернули обратно '+event.data,'https://evgeniyvorobev.github.io/testpage/index.html')
+                parent.postMessage('Вернули обратно произвольный текст Lorem ipsum dolor.','https://evgeniyvorobev.github.io/testpage/index.html')
             }
             if (window.addEventListener) {
                 window.addEventListener("message", listener,false);
