@@ -19,7 +19,7 @@
 // отправка сообщения в iframe win.
 window.onload = function(){
 var win = document.getElementById("iframe").contentWindow;
-win.postMessage("Сообщение отправлено с страницы "+location.href,"iframe.html");
+win.postMessage("Сообщение отправлено с страницы "+location.href,"https://evgeniyvorobev.github.io/testpage/iframe.html");
  // получение сообщения из iframe
 function listener(event){
     event.origin == '' 
