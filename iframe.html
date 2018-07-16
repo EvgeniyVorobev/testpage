@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+  <script src="js/main.js"></script>
+<body>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni minima quidem officiis eum aliquam error. Suscipit, est nisi deleniti esse hic numquam debitis libero. Non esse numquam iure obcaecati, odit vero ab, dolorem dolorum veniam, id, dignissimos unde rem officiis. Perferendis est vero reprehenderit hic alias architecto. Nesciunt tenetur, rem.
+<script type="text/javascript">
+            function listener(event){
+                document.getElementById("test").innerHTML = event.origin + " прислал: " + event.data;
+            }
+
+            if (window.addEventListener) {
+                window.addEventListener("message", listener,false);
+            } else {
+                window.attachEvent("onmessage", listener);
+            }
+            parent.postMessage('zdarova drygishe','index.html')
+            alert(parent.document.getElementById('iframe'));     
+        </script>
+</body>
+</html>
+
+
