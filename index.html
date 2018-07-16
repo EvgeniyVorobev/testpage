@@ -19,7 +19,7 @@ window.onload = function(){
 var win = document.getElementById("iframe").contentWindow; // объект iframe
 win.postMessage("Сообщение отправлено с страницы "+location.href,"https://evgeniyvorobev.github.io/testpage/iframe.html"); // отправляем сообщение в iframe ( после запятой адресс iframe )
  
-function listener(event){ // получение сообщения из iframe
+function listener(event) { // получение сообщения из iframe
     event.origin == '' 
     document.getElementById("reciveIframe").innerHTML = event.origin + " прислал: " + event.data;
 }

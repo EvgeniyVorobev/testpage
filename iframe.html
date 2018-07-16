@@ -13,13 +13,13 @@
 <script type="text/javascript">
             function listener(event){
                 document.getElementById("test").innerHTML = event.origin + " прислал: " + event.data;
+                parent.postMessage('Получили информацию и вернули обратно '+event.data,'https://evgeniyvorobev.github.io/testpage/index.html')
             }
             if (window.addEventListener) {
                 window.addEventListener("message", listener,false);
-            } else {
+            } else { // ie 8
                 window.attachEvent("onmessage", listener);
             }
-            parent.postMessage('zdarova drygishe','https://evgeniyvorobev.github.io/testpage/index.html')
         </script>
 </body>
 </html>
