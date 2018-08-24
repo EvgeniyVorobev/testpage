@@ -1,0 +1,87 @@
+
+@font-face{
+font-family: MullerBold;
+src: url(https://static.tildacdn.com/tild3231-3933-4230-a238-326636373361/Fontfabric-MullerBol.woff);
+}
+
+@font-face{
+font-family: MullerExtraBold;
+/
+src: url(https://static.tildacdn.com/tild6333-3932-4934-b234-306363346361/Fontfabric-MullerBla.woff);
+}
+
+@font-face{
+font-family: MullerLight;
+src: url(https://static.tildacdn.com/tild3264-6632-4331-b765-326236323438/Fontfabric-MullerLig.woff);
+}
+button,p,a,span,div,body,.e-popup__footer {
+	font-family: 'Muller' !important;
+}
+.event-description__title span, .ticket__title span, .ticket-price__flex span, .ticket__quantity.ticket__item input, .order-total__amount {
+	font-family: 'MullerBold' !important;
+}
+
+.event-description__text > div > span {
+    font-family: 'MullerLight' !important;
+}
+
+.ticket__text span, .event-description__text div, .event-description__text > div span .event-description__text div, .footer__title span, .footer__text , .footer__text span, .footer__copyright {
+	font-family: 'MullerLight' !important;
+}
+
+ button.btn.btn_green.btn_size_m {
+ 	    padding: 15px 0;
+ 	    font-family: 'MullerLight' !important;
+ }
+
+.error-tooltip {
+	background: #f5e058;
+	color:black !important
+}
+.error-tooltip span {
+	color: blue;
+}
+.error-tooltip:before {
+	background: #f5e058;
+}
+.btn_green {
+	background-color: #9a378c !important;
+	box-shadow: 0 2px 0 #9a378c !important;
+	background: linear-gradient(to bottom, #9a378c, #9a378c);
+}
+
+.btn_green.btn_low {
+	box-shadow: 0 2px 0 #9a378c  !important;
+	cursor:pointer;		
+}
+.btn_green.btn_low:hover {
+	box-shadow: 0 2px 0 #9a378c  !important;
+}
+.btn_green:focus, .btn_green:hover {
+	background: -webkit-gradient(linear, left top, left bottom, from(#9a378c), to(#9a378c));
+	background: -webkit-linear-gradient(top, #9a378c, #9a378c);
+	background: -o-linear-gradient(top, #9a378c, #9a378c);
+	background: linear-gradient(to bottom, #9a378c, #9a378c);
+	-webkit-box-shadow: 0 2px 0 #297002;
+	box-shadow: 0 2px 0 #9a378c !important;
+}
+
+.payment-countdown__filled_bg {
+	fill: #00b0be !important;
+}
+
+.btn.btn_green.btn_low{
+	background: #9a378c !important;
+	font-family: 'MullerBold';
+}
+
+button.input-counter.input-counter_up:before, button.input-counter.input-counter_up:after {
+	background: #9a378c;
+}
+button.input-counter.input-counter_down:before, button.input-counter.input-counter_down:after {
+	background: #9a378c;
+}
+
+.order-total {
+	margin-bottom: 35px;
+}
