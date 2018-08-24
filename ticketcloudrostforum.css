@@ -23,11 +23,19 @@ button,p,a,span,div,body,.e-popup__footer {
 .event-description__text > div > span {
     font-family: 'MullerLight' !important;
 }
-
+.event-description__text > div > span > span {
+    font-family: 'MullerLight' !important;
+}
 .ticket__text span, .event-description__text div, .event-description__text > div span .event-description__text div, .footer__title span, .footer__text , .footer__text span, .footer__copyright {
 	font-family: 'MullerLight' !important;
 }
 
+.payment__title {
+    font-family: 'MullerBold' !important;
+}
+.payment-form .form__group label {
+    font-family: 'MullerLight' !important;
+}
  button.btn.btn_green.btn_size_m {
  	    padding: 15px 0;
  	    font-family: 'MullerLight' !important;
@@ -36,9 +44,12 @@ button,p,a,span,div,body,.e-popup__footer {
 .error-tooltip {
 	background: #f5e058;
 	color:black !important
+	font-family: 'MullerLight' !important;
 }
+
 .error-tooltip span {
 	color: blue;
+	font-family: 'MullerLight' !important;
 }
 .error-tooltip:before {
 	background: #f5e058;
