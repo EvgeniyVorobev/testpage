@@ -29,6 +29,9 @@ button,p,a,span,div,body,.e-popup__footer {
 .form__input, .suggestions-input {
     font-family: 'MullerLight' !important;
 }
+.e-popup-close:hover {
+ color: #00b0be;
+}
 .payment__submit p {
 font-family: 'MullerLight' !important;
 margin-bottom: 50px;
