@@ -33,6 +33,13 @@ button,p,a,span,div,body,.e-popup__footer {
 font-family: 'MullerLight' !important;
 margin-bottom: 50px;
 }
+.order-total__extra-info {
+    font-family: 'MullerLight' !important;
+}
+.event-description__back:hover {
+    cursor: pointer;
+    color: #00b0be !important;
+}
 .payment__submit > p > a{
 font-family: 'MullerLight' !important;
 }
