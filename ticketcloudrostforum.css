@@ -14,7 +14,7 @@ font-family: MullerLight;
 src: url(https://static.tildacdn.com/tild3264-6632-4331-b765-326236323438/Fontfabric-MullerLig.woff);
 }
 button,p,a,span,div,body,.e-popup__footer {
-	font-family: 'Muller' !important;
+	font-family: 'MullerLight' !important;
 }
 .event-description__title span, .ticket__title span, .ticket-price__flex span, .ticket__quantity.ticket__item input, .order-total__amount {
 	font-family: 'MullerBold' !important;
@@ -58,7 +58,7 @@ font-family: 'MullerLight' !important;
 }
  button.btn.btn_green.btn_size_m {
  	    padding: 15px 0;
- 	    font-family: 'MullerLight' !important;
+ 	    font-family: 'MullerBold' !important;
  }
 
 .error-tooltip {
