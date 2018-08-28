@@ -1,4 +1,3 @@
-
 @font-face{
 font-family: MullerBold;
 src: url(https://static.tildacdn.com/tild3231-3933-4230-a238-326636373361/Fontfabric-MullerBol.woff);
@@ -13,64 +12,41 @@ src: url(https://static.tildacdn.com/tild6333-3932-4934-b234-306363346361/Fontfa
 font-family: MullerLight;
 src: url(https://static.tildacdn.com/tild3264-6632-4331-b765-326236323438/Fontfabric-MullerLig.woff);
 }
-button,p,a,span,div,body,.e-popup__footer {
-	font-family: 'MullerLight' !important;
-}
+
 .event-description__title span, .ticket__title span, .ticket-price__flex span, .ticket__quantity.ticket__item input, .order-total__amount {
 	font-family: 'MullerBold' !important;
 }
 
-.event-description__text > div > span {
-    font-family: 'MullerLight' !important;
-}
-.event-description__text > div > span > span {
-    font-family: 'MullerLight' !important;
-}
-.form__input, .suggestions-input {
-    font-family: 'MullerLight' !important;
-}
 .e-popup-close:hover {
  color: #00b0be;
 }
+
 .payment__submit p {
-font-family: 'MullerLight' !important;
 margin-bottom: 50px;
 }
-.order-total__extra-info {
-    font-family: 'MullerLight' !important;
-}
+
 .event-description__back:hover {
     cursor: pointer;
     color: #00b0be !important;
-}
-.payment__submit > p > a{
-font-family: 'MullerLight' !important;
-}
-.ticket__text span, .event-description__text div, .event-description__text > div span .event-description__text div, .footer__title span, .footer__text , .footer__text span, .footer__copyright {
-	font-family: 'MullerLight' !important;
 }
 
 .payment__title {
     font-family: 'MullerBold' !important;
 }
-.payment-form .form__group label {
-    font-family: 'MullerLight' !important;
-}
+
  button.btn.btn_green.btn_size_m {
  	    padding: 15px 0;
- 	    font-family: 'MullerLight' !important;
  }
 
 .error-tooltip {
 	background: #f5e058;
 	color:black !important
-	font-family: 'MullerLight' !important;
 }
 
 .error-tooltip span {
 	color: blue;
-	font-family: 'MullerLight' !important;
 }
+
 .error-tooltip:before {
 	background: #f5e058;
 }
@@ -102,7 +78,6 @@ font-family: 'MullerLight' !important;
 
 .btn.btn_green.btn_low{
 	background: #9a378c !important;
-	font-family: 'MullerLight' !important;
 }
 
 button.input-counter.input-counter_up:before, button.input-counter.input-counter_up:after {
@@ -116,9 +91,11 @@ button.input-counter.input-counter_down:before, button.input-counter.input-count
 	margin-bottom: 35px;
 }
 
-.lang__title {
-    font-family: 'MullerLight' !important;
-}
-.support-tel, .support-tel a, .age-rating{
+
+.support-tel, .support-tel a, .age-rating, .lang__title, .btn.btn_green.btn_low,  button.btn.btn_green.btn_size_m , .payment__submit p, .payment__submit > p > a, 
+.error-tooltip, .order-total__extra-info, .form__input, .suggestions-input, .event-description__text > div > span > span, .event-description__text > div > span,
+.order-total__extra-info, button,p,a,span,div,body,.e-popup__footer, .ticket__text span, .event-description__text div, .event-description__text > div span .event-description__text div, .footer__title span, .footer__text , .footer__text span, .footer__copyright, .payment-form .form__group label, .error-tooltip span  {
 font-family: 'MullerLight' !important;	
 }
+
+
