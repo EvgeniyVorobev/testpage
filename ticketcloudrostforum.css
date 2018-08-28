@@ -102,7 +102,7 @@ font-family: 'MullerLight' !important;
 
 .btn.btn_green.btn_low{
 	background: #9a378c !important;
-	font-family: 'MullerBold' !important;
+	font-family: 'MullerLight' !important;
 }
 
 button.input-counter.input-counter_up:before, button.input-counter.input-counter_up:after {
@@ -122,3 +122,5 @@ button.input-counter.input-counter_down:before, button.input-counter.input-count
 .support-tel, .support-tel a{
 font-family: 'MullerLight' !important;	
 }
+
+.age-rating { font-family: 'MullerLight' !important; }
