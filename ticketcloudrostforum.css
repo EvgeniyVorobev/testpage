@@ -92,7 +92,7 @@ button.input-counter.input-counter_down:before, button.input-counter.input-count
 }
 
 
-.support-tel, .support-tel a, .age-rating, .lang__title, .btn.btn_green.btn_low,  button.btn.btn_green.btn_size_m , .payment__submit p, .payment__submit > p > a, 
+.support-tel, .support-tel a, span.age-rating, .lang__title, .btn.btn_green.btn_low,  button.btn.btn_green.btn_size_m , .payment__submit p, .payment__submit > p > a, 
 .error-tooltip, .order-total__extra-info, .form__input, .suggestions-input, .event-description__text > div > span > span, .event-description__text > div > span,
 .order-total__extra-info, button,p,a,span,div,body,.e-popup__footer, .ticket__text span, .event-description__text div, .event-description__text > div span .event-description__text div, .footer__title span, .footer__text , .footer__text span, .footer__copyright, .payment-form .form__group label, .error-tooltip span  {
 font-family: 'MullerLight' !important;	
