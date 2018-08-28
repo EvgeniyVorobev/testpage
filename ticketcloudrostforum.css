@@ -119,8 +119,6 @@ button.input-counter.input-counter_down:before, button.input-counter.input-count
 .lang__title {
     font-family: 'MullerLight' !important;
 }
-.support-tel, .support-tel a{
+.support-tel, .support-tel a, .age-rating{
 font-family: 'MullerLight' !important;	
 }
-
-.age-rating { font-family: 'MullerLight' !important; }
