@@ -58,7 +58,7 @@ font-family: 'MullerLight' !important;
 }
  button.btn.btn_green.btn_size_m {
  	    padding: 15px 0;
- 	    font-family: 'MullerBold' !important;
+ 	    font-family: 'MullerLight' !important;
  }
 
 .error-tooltip {
@@ -102,7 +102,7 @@ font-family: 'MullerLight' !important;
 
 .btn.btn_green.btn_low{
 	background: #9a378c !important;
-	font-family: 'MullerBold';
+	font-family: 'MullerBold' !important;
 }
 
 button.input-counter.input-counter_up:before, button.input-counter.input-counter_up:after {
