@@ -115,3 +115,10 @@ button.input-counter.input-counter_down:before, button.input-counter.input-count
 .order-total {
 	margin-bottom: 35px;
 }
+
+.lang__title {
+    font-family: 'MullerLight' !important;
+}
+.support-tel, .support-tel a{
+font-family: 'MullerLight' !important;	
+}
